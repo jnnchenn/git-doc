@@ -3,7 +3,7 @@ git版本管理示例
 ## 创建远程仓库
     gitHub / your repository 新建目标仓库，命名 “git-test”，SSH地址“git@github.com:jnnchenn/git-test2.git”
 
-## 初始化本地项目
+## 初始化本地项目并推送至远程
     # 创建README.md
     $ echo "# css-test" >> README.md 或者 touch README.md 
     # 在当前目录新建一个Git代码库
