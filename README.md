@@ -10,11 +10,12 @@ git版本管理示例
     $ git init 
     # 从工作区添加指定文件到暂存区
     $ git add README.md 
-    # 从暂存区提交到到本地仓库
+    # 从暂存区提交到本地仓库
     $ git commit -m "git-test first commit" 
     # 添加远程仓库地址
     $ git remote add origin git@github.com:jnnchenn/git-test.git 
-    # 推送文件到远程仓库master分支
+    # 推送项目到远程仓库master分支
+    $ git push origin master
 
 ## 修改项目
     git pull origin master
