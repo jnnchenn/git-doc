@@ -1,7 +1,7 @@
 git版本管理示例
 
 ## 创建远程仓库
-gitHub / your repository 新建目标仓库，命名 “git-test”，SSH地址`git@github.com:jnnchenn/git-test2.git`
+    gitHub / your repository 新建目标仓库，命名 “git-test”，SSH地址`git@github.com:jnnchenn/git-test2.git`
 
 ## 初始化本地项目
     # 创建README.md
@@ -10,7 +10,7 @@ gitHub / your repository 新建目标仓库，命名 “git-test”，SSH地址`
     $ git init 
     # 从工作区添加指定文件到暂存区
     $ git add README.md 
-    # 从缓冲区提交到到本地仓库
+    # 从暂存区提交到到本地仓库
     $ git commit -m "git-test first commit" 
     # 添加远程仓库地址
     $ git remote add origin git@github.com:jnnchenn/git-test.git 
