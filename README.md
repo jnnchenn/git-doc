@@ -1,3 +1,11 @@
 git 示例
-## 第一次修改
-## 第二次修改
+## 修改
+    git pull origin master
+    git add .
+    git status 
+    git commit -m "first update"
+    git push origin master
+
+## 拉取项目
+    git clone git@github.com:jnnchenn/git-test.git
+
